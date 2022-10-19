@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <title>Calcular IMC</title>
+</head>
+
+<body>
+
+  <body>
+    <div class="container">
+      <div class="panel">
+        <h1 class="text-centerh1">CALCULE SEU IMC</h1>
+
+        <p id="introText" class="text-center">Insira seu peso e altura abaixo para verificar seus resultados de IMC</p>
+
+        <form>
+          <div id="weightInput">
+            <p>Coloque seu peso aqui em (KG)</p>
+            <input id="weight" type="number" pattern="[0-9]*" name="a" />
+          </div>
+          <div id="heightInput">
+            <p>E sua altura aqui (CM)</p>
+            <input id="height" type="number" pattern="[0-9]*" name="b" />
+          </div>
+          <button type="button" class="btn" onclick="calculate()">Calcular IMC</button>
+        </form>
+        <div id="results" class="text-center">Seus resultados de IMC aparecerão aqui..</div>
+      </div>
+      <div class="autor" style="font-size:1rem; display: flex; align-items: center; justify-content: center;">by<a href="https://github.com/felpsg" style="text-decoration: none; color: #000; margin-left: 0.25rem;">@felpsg</a></div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+
+</html>
+</body>
+
+</html>
